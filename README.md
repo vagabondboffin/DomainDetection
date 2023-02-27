@@ -1,4 +1,4 @@
-# DomainDetection
+# Domain Detection
 # Exploring different ML concept in a Domain Name Detection problem
 
 ## 1.	Exploratory Data Analysis
