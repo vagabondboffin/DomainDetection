@@ -16,8 +16,8 @@ from sklearn.ensemble import ExtraTreesClassifier
 from matplotlib import pyplot as plt
 
 def preprocessing_():
-    train = pd.read_csv('Project2_training.csv')
-    validation = pd.read_csv('project2_validation.csv')
+    train = pd.read_csv('Dataset/trainDataset.csv')
+    validation = pd.read_csv('Dataset/testDataset.csv')
     Xtrain = train.iloc[:,0:-1]
     Ytrain = train.iloc[:,-1]
     Xvalid= validation.iloc[:,0:-1]
